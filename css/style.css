@@ -25,9 +25,9 @@
 body {
 	font-family:'Open Sans', Arial, sans-serif;
 	font-size:14px;
-	font-weight:300;
+	font-weight:500;
 	line-height:1.6em;
-	color:#656565;
+	color:#000000;
 }
 
 a:active {
@@ -679,7 +679,7 @@ section.callaction {
 }
 
 #parallax1{	
-	background-image: url(../img/parallax/1.jpg);
+	background-image: url(../img/parallax/2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     display:block;
@@ -687,8 +687,8 @@ section.callaction {
     z-index:120; 
 }
 
-#parallax1:after {	
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
+/* #parallax1:after {	
+	background-image: url(../img/parallax/2.jpg);
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -697,7 +697,7 @@ section.callaction {
 	top: 0;
 	opacity: 0.9;
 	z-index: -1;
-}
+} */
 
 /* ===================================
 9. Section: Bottom
